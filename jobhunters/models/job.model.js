@@ -28,8 +28,7 @@ const jobSchema = new mongoose.Schema({
             return Date.now();
         }
     },
-
-    
+ 
     status : {
         type : String,
         default : constants.jobStatus.active
