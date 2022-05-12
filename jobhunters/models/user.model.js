@@ -47,8 +47,5 @@ const userSchema = new mongoose.Schema({
         type: [mongoose.SchemaTypes.ObjectId],
         ref: "Job"
     }
-
 });
-
-
 module.exports = mongoose.model("User", userSchema);
